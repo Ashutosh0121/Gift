@@ -6,12 +6,12 @@ export default function App() {
   const [password, setPassword] = useState("");
   const [dob, setDob] = useState("");
   const [error, setError] = useState("");
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
 
   // Static credentials
-  const VALID_USERNAME = "admin";
-  const VALID_PASSWORD = "password123";
-  const VALID_DOB = "2000-01-01"; // YYYY-MM-DD
+  const VALID_USERNAME = "a";
+  const VALID_PASSWORD = "a";
+  const VALID_DOB = "2025-08-16"; // YYYY-MM-DD
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100" >
       <form
         className="bg-white shadow-md rounded-lg p-8 w-full max-w-md space-y-6 border border-gray-200"
         onSubmit={handleSubmit}
