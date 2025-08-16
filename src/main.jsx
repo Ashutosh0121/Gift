@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter basename="/Gift">
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/dashboard" element={<Home />} />
+      <Route path="/Home" element={<Home />} />
     </Routes>
   </BrowserRouter>
 );

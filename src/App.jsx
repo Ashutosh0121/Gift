@@ -21,7 +21,7 @@ export default function App() {
       dob === VALID_DOB
     ) {
       setError("");
-      navigate("/dashboard");
+      navigate("/Home");
     } else {
       setError("Invalid credentials. Please try again.");
     }

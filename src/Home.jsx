@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Spline from '@splinetool/react-spline';
 import song from "./assets/song/Happy Birthday Ishq Forever 128 Kbps.mp3";
 
 export default function Home() {
@@ -32,6 +33,11 @@ export default function Home() {
       >
         Push
       </button>
+
+       {/* <Spline scene="https://prod.spline.design/CXnbJyYQc9cNbdGS/scene.splinecode" /> */}
+   {/* <Spline scene="https://prod.spline.design/Ajczen1z7OMTJ405/scene.splinecode" /> */}
+   <Spline scene="https://prod.spline.design/0AgFOdbvG0ry-LA9/scene.splinecode" />
+
     </div>
   );
 }
