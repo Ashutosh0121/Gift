@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-blue-700">Welcome to Home!</h1>
+      <h1 className="text-3xl font-bold text-blue-700 ">Welcome to Home!</h1>
       <audio ref={audioRef} src={song} autoPlay />
       <button
         onClick={handleToggle}
@@ -36,7 +36,10 @@ export default function Home() {
 
        {/* <Spline scene="https://prod.spline.design/CXnbJyYQc9cNbdGS/scene.splinecode" /> */}
    {/* <Spline scene="https://prod.spline.design/Ajczen1z7OMTJ405/scene.splinecode" /> */}
-   <Spline scene="https://prod.spline.design/0AgFOdbvG0ry-LA9/scene.splinecode" />
+   {/* <Spline scene="https://prod.spline.design/0AgFOdbvG0ry-LA9/scene.splinecode" /> */}
+ {/* <Spline   scene="https://prod.spline.design/SwD0A7gWnCvUM2re/scene.splinecode" /> */}
+  <Spline className="bg-black" scene="https://prod.spline.design/SwD0A7gWnCvUM2re/scene.splinecode" />
+
 
     </div>
   );
